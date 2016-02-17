@@ -11,6 +11,6 @@ class Client < Formula
   end
 
   test do
-    system "bin/bytemark", "--version"
+    system "bin/bytemark", "version"
   end
 end
