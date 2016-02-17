@@ -1,4 +1,4 @@
-class Client < Formula
+class Bmcli < Formula
   desc "command-line client for Bytemark services"
   homepage "https://bigv.io"
   url "http://repo.bytemark.co.uk/bytemark-client/osx/bytemark-0.4.260.tar.gz"
