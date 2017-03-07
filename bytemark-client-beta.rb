@@ -7,12 +7,14 @@ class BytemarkClientBeta < Formula
   bottle :unneeded
   
   def install
-    bin.install "bytemark"
+    mv "bytemark", "bytemark-beta"
+    mv "doc/bytemark.1", "doc/bytemark-beta.1"
+    bin.install "bytemark-beta"
     man1.mkpath
-    man1.install "doc/bytemark.1"
+    man1.install "doc/bytemark-beta.1"
   end
 
   test do
-    system "bin/bytemark", "version"
+    system "bin/bytemark-beta", "version"
   end
 end
