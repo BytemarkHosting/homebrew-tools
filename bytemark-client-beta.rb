@@ -1,8 +1,8 @@
 class BytemarkClientBeta < Formula
   desc "in-development version of the command-line client for Bytemark services"
   homepage "https://bytemark.co.uk/docs/command-line"
-  url "https://repo.bytemark.co.uk/open-source/bytemark-client/develop/12437/mac/bytemark-3.0~beta1~12437.giteb72d40.tar.gz"
-  sha256 "b43c33fd7533b36651ce880d3fb78f922aab462a7c8dc2dc641def1c79ac0e06"
+  url "https://repo.bytemark.co.uk/open-source/bytemark-client/develop/12577/mac/bytemark-3.0~beta1~12577.gitef9600f.tar.gz"
+  sha256 "90b76ac9b2a68887d5fd3e4fb6f64e00e9978a954ac6292b997e21b2f72c6b30"
 
   bottle :unneeded
   
