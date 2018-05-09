@@ -2,7 +2,7 @@ class BytemarkClient < Formula
   desc "command-line client for Bytemark services"
   homepage "https://bytemark.co.uk/docs/command-line"
   url "https://repo.bytemark.co.uk/bytemark-client/mac/bytemark-3.1.tar.gz"
-  sha256 "c88a994c52a9d08ba248054740eac38a808f89185bfffbe01b6f0ad6ee0d5777"
+  sha256 "5d327898f2abd2a84d1cca8536247c51f2f732e3616fe679301ea3238c8cc8c7"
 
   bottle :unneeded
   
